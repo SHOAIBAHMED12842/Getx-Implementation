@@ -24,8 +24,8 @@ class _GetXRoutesScreenState extends State<GetXRoutesScreen> {
         children: [
           TextButton(onPressed: (){
           //  Navigator.push(context, MaterialPageRoute(builder: (context) => ScreenOne()));
-            Get.to(ScreenOne(name: 'Asif Taj',));
-          }, child: Text('Go to Screen 1'))
+            Get.to(const ScreenOne(name: 'Shoaib Ahmed',));  //Get.toNamed('/screen1'); //arguments['','']
+          }, child: const Text('Go to Screen 1'))
         ],
       ),
     );
